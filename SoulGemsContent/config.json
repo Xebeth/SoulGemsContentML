@@ -1,0 +1,44 @@
+{
+  "ModDirectoryStructure": "OblivionRemastered\\Content\\Dev\\ObvData\\Data\\MagicLoader\\",
+  "IncludedSections": [ "ST_FullNames", "ST_HardcodedContent" ],
+  "LocalizationSource": "Localization",
+  "OutputDirectory": "MagicLoader",
+  "ModName": "SoulGemsContent",
+  "ModFiles": {
+    "SoulGemsContent.json": {
+      "FullNamesEditEntries": [
+        "LOC_FN_SoulGem1Petty1PettySoul",
+
+        "LOC_FN_SoulGem2Lesser1PettySoul",
+        "LOC_FN_SoulGem2Lesser2LesserSoul",
+
+        "LOC_FN_SoulGem3Common1PettySoul",
+        "LOC_FN_SoulGem3Common2LesserSoul",
+        "LOC_FN_SoulGem3Common3CommonSoul",
+
+        "LOC_FN_SoulGem4Greater1PettySoul",
+        "LOC_FN_SoulGem4Greater2LesserSoul",
+        "LOC_FN_SoulGem4Greater3CommonSoul",
+        "LOC_FN_SoulGem4Greater4GreaterSoul",
+
+        "LOC_FN_SoulGem5Grand1PettySoul",
+        "LOC_FN_SoulGem5Grand2LesserSoul",
+        "LOC_FN_SoulGem5Grand3CommonSoul",
+        "LOC_FN_SoulGem5Grand4GreaterSoul",
+        "LOC_FN_SoulGem5Grand5GrandSoul",
+
+        "LOC_FN_BlackSoulGemGrand",
+        "LOC_FN_BlackSoulGemFilled",
+        "LOC_FN_Mg17BlackSoulGemFilled"
+      ]
+    }
+  },
+  "SoulLevels": {
+    "Filled": "LOC_FN_SoulLevelNameFilled",
+    "PettySoul": "LOC_FN_SoulLevelNamePetty",
+    "LesserSoul": "LOC_FN_SoulLevelNameLesser",
+    "CommonSoul": "LOC_FN_SoulLevelNameCommon",
+    "GreaterSoul": "LOC_FN_SoulLevelNameGreater",
+    "GrandSoul": "LOC_FN_SoulLevelNameGrand"
+  }
+}
