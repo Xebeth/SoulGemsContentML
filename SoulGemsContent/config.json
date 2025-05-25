@@ -34,11 +34,25 @@
     }
   },
   "SoulLevels": {
-    "Filled": "LOC_FN_SoulLevelNameFilled",
-    "PettySoul": "LOC_FN_SoulLevelNamePetty",
-    "LesserSoul": "LOC_FN_SoulLevelNameLesser",
-    "CommonSoul": "LOC_FN_SoulLevelNameCommon",
-    "GreaterSoul": "LOC_FN_SoulLevelNameGreater",
-    "GrandSoul": "LOC_FN_SoulLevelNameGrand"
+    "LOC_FN_SoulLevelNameFilled": "LOC_FN_SoulLevelNameFilled",
+    "LOC_FN_SoulLevelNamePetty": "LOC_HC_TESSoulGem_sSoulLevelNamePetty",
+    "LOC_FN_SoulLevelNameLesser": "LOC_HC_TESSoulGem_sSoulLevelNameLesser",
+    "LOC_FN_SoulLevelNameCommon": "LOC_HC_TESSoulGem_sSoulLevelNameCommon",
+    "LOC_FN_SoulLevelNameGreater": "LOC_HC_TESSoulGem_sSoulLevelNameGreater",
+    "LOC_FN_SoulLevelNameGrand": "LOC_HC_TESSoulGem_sSoulLevelNameGrand"
+  },
+  "Localizations": {
+    "LOC_FN_SoulLevelNameFilled": {
+      "de": "Gefüllt",
+      "en": "Filled",
+      "es": "Completada",
+      "fr": "Remplie",
+      "it": "Riempito",
+      "ja": "満たされた",
+      "pl": "Wypełniony",
+      "pt": "Cheia",
+      "ru": "Заполненный",
+      "zh-Hans": "充满"
+    }
   }
 }

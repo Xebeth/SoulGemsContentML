@@ -6,11 +6,10 @@
         <LangVersion>latest</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>SampleModML</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NorthEdge.MagicLoaderGenerator" Version="1.1.0" />
+      <PackageReference Include="NorthEdge.MagicLoaderGenerator" Version="1.2.0" />
     </ItemGroup>
 
     <ItemGroup>
