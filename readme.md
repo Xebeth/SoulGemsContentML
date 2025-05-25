@@ -36,3 +36,9 @@ with empty soul gems which were filled by trapping souls. This is due to the fac
 ## Credits
 - GRUmod for the list of locations found in his UE4SS version [Quest Dungeons Marked (.ESPless)](https://www.nexusmods.com/oblivionremastered/mods/3560).
 - RareMojo for the mod description I shamelessly copied from [Tools First - Inventory Sorting](https://www.nexusmods.com/oblivionremastered/mods/964) .
+
+# Changelog
+## Version 1.0.0
+- First stable release
+## Version 1.0.1
+- Update the MagicLoaderGenerator library to version 1.2.1 to fix problems with the generated Zip archives

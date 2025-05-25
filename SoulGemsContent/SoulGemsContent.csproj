@@ -9,13 +9,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NorthEdge.MagicLoaderGenerator" Version="1.2.0" />
+      <PackageReference Include="NorthEdge.MagicLoaderGenerator" Version="1.2.1" />
     </ItemGroup>
 
     <ItemGroup>
       <None Update="config.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="../readme.md">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="../LICENSE">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Include="../readme.md" />
+      <None Include="../LICENSE" />
     </ItemGroup>
 
     <ItemGroup>
