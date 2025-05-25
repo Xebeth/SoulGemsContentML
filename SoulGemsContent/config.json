@@ -1,8 +1,5 @@
 {
-  "ModDirectoryStructure": "OblivionRemastered\\Content\\Dev\\ObvData\\Data\\MagicLoader\\",
   "IncludedSections": [ "ST_FullNames", "ST_HardcodedContent" ],
-  "LocalizationSource": "Localization",
-  "OutputDirectory": "MagicLoader",
   "ModName": "SoulGemsContent",
   "ModFiles": {
     "SoulGemsContent.json": {
