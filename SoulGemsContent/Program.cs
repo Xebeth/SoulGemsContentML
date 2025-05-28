@@ -1,5 +1,4 @@
 ﻿using MagicLoaderGenerator.Filesystem.Abstractions;
-using MagicLoaderGenerator.Localization.Providers;
 using MagicLoaderGenerator.Filesystem.Generators;
 using Microsoft.Extensions.Configuration;
 using MagicLoaderGenerator;
@@ -9,12 +8,12 @@ var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirecto
                                         .AddJsonFile("config.json", optional: false);
 var variants = new Dictionary<string, IMagicLoaderFileTransform?>();
 var appConfig = new SoulGemsContentConfig(builder.Build());
-var localization = new JsonLocalizationProvider(appConfig);
-var mod = new MagicLoaderMod(localization, appConfig);
+var mod = new MagicLoaderMod(appConfig);
+
 
 foreach (var (variant, prefix) in appConfig.Prefixes)
 {
-    variants.Add(variant, new SoulGemSuffixTransform(localization, appConfig, prefix));
+    variants.Add(variant, new SoulGemSuffixTransform(prefix));
 }
 
 var outputDir = mod.Generate(new ZipOutputGenerator(appConfig), variants);

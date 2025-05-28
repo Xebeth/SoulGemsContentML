@@ -1,55 +1,40 @@
 {
-  "IncludedSections": [ "ST_FullNames", "ST_HardcodedContent" ],
   "ModName": "SoulGemsContent",
   "ModFiles": {
     "SoulGemsContent.json": {
-      "FullNamesEditEntries": [
+      "LoadAfter": [ "ToolsFirst_SoulGems.json", "ToolsFirst_AIO.json" ],
+      "GlobalEdit": [
         "LOC_FN_SoulGem1Petty1PettySoul",
-
         "LOC_FN_SoulGem2Lesser1PettySoul",
         "LOC_FN_SoulGem2Lesser2LesserSoul",
-
         "LOC_FN_SoulGem3Common1PettySoul",
         "LOC_FN_SoulGem3Common2LesserSoul",
         "LOC_FN_SoulGem3Common3CommonSoul",
-
         "LOC_FN_SoulGem4Greater1PettySoul",
         "LOC_FN_SoulGem4Greater2LesserSoul",
         "LOC_FN_SoulGem4Greater3CommonSoul",
         "LOC_FN_SoulGem4Greater4GreaterSoul",
-
         "LOC_FN_SoulGem5Grand1PettySoul",
         "LOC_FN_SoulGem5Grand2LesserSoul",
         "LOC_FN_SoulGem5Grand3CommonSoul",
         "LOC_FN_SoulGem5Grand4GreaterSoul",
         "LOC_FN_SoulGem5Grand5GrandSoul",
-
-        "LOC_FN_BlackSoulGemGrand",
+        "LOC_FN_Mg17BlackSoulGemFilled",
         "LOC_FN_BlackSoulGemFilled",
-        "LOC_FN_Mg17BlackSoulGemFilled"
+        "LOC_FN_BlackSoulGemGrand",
+        "LOC_FN_SoulGemEmpty4Greater",
+        "LOC_FN_SoulGemEmpty5Grand",
+        "LOC_FN_SoulGemEmpty1Petty",
+        "LOC_FN_SoulGemEmpty2Lesser",
+        "LOC_FN_SoulGemEmpty3Common",
+        "LOC_FN_BlackSoulGem",
+        "LOC_FN_Mg17BlackSoulGem",
+        "LOC_FN_MG02BlackSoulGem",
+        "LOC_FN_MG17MiscBlackSoulGem",
+        "LOC_FN_MG17MiscBlackSoulGemFilled",
+        "LOC_FN_AzurasStar",
+        "LOC_FN_SE38Item7"
       ]
-    }
-  },
-  "SoulLevels": {
-    "LOC_FN_SoulLevelNameFilled": "LOC_FN_SoulLevelNameFilled",
-    "LOC_FN_SoulLevelNamePetty": "LOC_HC_TESSoulGem_sSoulLevelNamePetty",
-    "LOC_FN_SoulLevelNameLesser": "LOC_HC_TESSoulGem_sSoulLevelNameLesser",
-    "LOC_FN_SoulLevelNameCommon": "LOC_HC_TESSoulGem_sSoulLevelNameCommon",
-    "LOC_FN_SoulLevelNameGreater": "LOC_HC_TESSoulGem_sSoulLevelNameGreater",
-    "LOC_FN_SoulLevelNameGrand": "LOC_HC_TESSoulGem_sSoulLevelNameGrand"
-  },
-  "Localizations": {
-    "LOC_FN_SoulLevelNameFilled": {
-      "de": "Gefüllt",
-      "en": "Filled",
-      "es": "Completada",
-      "fr": "Remplie",
-      "it": "Riempito",
-      "ja": "満たされた",
-      "pl": "Wypełniony",
-      "pt": "Cheia",
-      "ru": "Заполненный",
-      "zh-Hans": "充满"
     }
   }
 }

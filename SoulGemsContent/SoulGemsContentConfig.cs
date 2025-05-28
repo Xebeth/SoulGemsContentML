@@ -12,7 +12,5 @@ public record SoulGemsContentConfig: AppConfig
 
     public SoulGemsContentConfig(IConfiguration config) : base(config) {}
 
-    public Dictionary<string, string> SoulLevels { get; } = [];
-
     public Dictionary<string, string> Prefixes { get; } = DefaultPrefixes;
 }
