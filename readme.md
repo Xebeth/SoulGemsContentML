@@ -25,8 +25,8 @@ with empty soul gems which were filled by trapping souls. This is due to the fac
 - Launch the game, if necessary.
 
 ## Compatibility
-- The sorted variant will conflict with [Tools First - Inventory Sorting](https://www.nexusmods.com/oblivionremastered/mods/964) 
-(hopefully only until they update to MagicLoader 2). Use the individual files except `ToolsFirst_SoulGems.json`.
+- Compatible with [Tools First - Inventory Sorting](https://www.nexusmods.com/oblivionremastered/mods/964) 3.0 (use the standard version of this mod)
+- Incompatible with any mod changes the name or doesn't correctly reference these same items using their LOC_FN names.
 
 ## Notes
 - You must re-run [MagicLoader](https://www.nexusmods.com/oblivionremastered/mods/1966?tab=description) **2.4+** if I send out any updates to apply them!

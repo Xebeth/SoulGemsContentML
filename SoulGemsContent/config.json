@@ -2,7 +2,6 @@
   "ModName": "SoulGemsContent",
   "ModFiles": {
     "SoulGemsContent.json": {
-      "LoadAfter": [ "ToolsFirst_SoulGems.json", "ToolsFirst_AIO.json" ],
       "GlobalEdit": [
         "LOC_FN_SoulGem1Petty1PettySoul",
         "LOC_FN_SoulGem2Lesser1PettySoul",
